@@ -79,12 +79,12 @@
         <snapshotRepository>
             <id>junit-snapshot-repo</id>
             <name>Nexus Snapshot Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <url>http://localhost:8081/repository/junit4/</url>
         </snapshotRepository>
         <repository>
             <id>junit-releases-repo</id>
             <name>Nexus Release Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>http://localhost:8081/repository/junit4/</url>
         </repository>
         <site>
             <id>junit.github.io</id>
